@@ -117,7 +117,7 @@ plot(r)
 Now, we will start GRASS in a temporary folder. By specifying `SG = r`,
 the GRASS project is internally created with raster `r`'s object CRS (BTW,
 you can check that with `crs(r)`), extent and resolution.
-These latter define the GRASS computational region that will affect all raster
+These later define the GRASS computational region that will affect all raster
 processing, i.e., all new raster maps generated within GRASS will have the
 same extent and resolution of the map provided. 
 If you wish to change the computational region later on, you can use the 
